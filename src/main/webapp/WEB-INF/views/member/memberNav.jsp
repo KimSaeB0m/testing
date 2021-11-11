@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <style>
-	body{background:gray; margin:0; padding:0;}
+	body{background:gray; margin:0 0 0 20px; padding:0;}
 	#wrap{width:100%; height:100px; background:white;}
 	#sidebar{background:white; width:300px; height:100%; top0; left:-300px; position:fixed;}
 	#sidebar>table{margin:0; padding:0; top:50px; left:40px; position:absolute; text-align:center;}
@@ -30,7 +30,7 @@
 	<aside id="sidebar">
 		<table>
 			<tr>
-				<td colspan="2"><h1>Logo</h1></td>
+				<td colspan="2"><h1>Logologologo</h1></td>
 			</tr>
 			
 			<c:choose>
