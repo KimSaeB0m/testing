@@ -32,7 +32,6 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		
 		return "home";
 	}
 	
@@ -54,10 +53,5 @@ public class HomeController {
 	@RequestMapping(value="/memberNav")
 	public String memberNav() {
 		return "member/memberNav";
-	}
-	
-	@RequestMapping(value="/view")
-	public String view() {
-		return "viewForm";
 	}
 }
