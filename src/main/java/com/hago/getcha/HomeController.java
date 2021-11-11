@@ -32,7 +32,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		return "home/dasdasd";
+		return "home/dasdasdsd";
 	}
 	
 	@RequestMapping(value="/member")
