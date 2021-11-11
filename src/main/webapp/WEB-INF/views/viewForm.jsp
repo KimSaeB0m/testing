@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <center>
+<%@ include file="member/memberNav.jsp" %>
  <article class="contents">
     <!-- 레스토랑 상세 이미지 슬라이드 -->
     <aside class="restaurant-photos">

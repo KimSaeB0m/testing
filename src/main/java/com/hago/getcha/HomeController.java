@@ -54,4 +54,9 @@ public class HomeController {
 	public String memberNav() {
 		return "member/memberNav";
 	}
+	
+	@RequestMapping(value="/view")
+	public String view() {
+		return "viewForm";
+	}
 }
