@@ -34,6 +34,7 @@
 		<input type="button" value="다음달" onclick="nextMonth()"/>
 		</td>
 		</tr>
+		
 <script>
 		function nextMonth(){
 			var calform = document.calform;
