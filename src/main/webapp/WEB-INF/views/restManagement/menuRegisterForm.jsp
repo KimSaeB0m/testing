@@ -95,7 +95,7 @@
 			</tr>
 		</table>
 		<br>
-		<button name="addMenu">메뉴 추가</button>
+		<button type="button" name="addMenu">메뉴 추가</button>
 		<button onclick="showList()">메뉴 확인</button>
 		<button name="registerMenu" >메뉴 등록</button>
 	</form>
