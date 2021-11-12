@@ -32,7 +32,9 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		return "home/fdsafad";
+
+		return "restManagement/menuRegisterForm12";
+
 	}
 	
 	@RequestMapping(value="/member")
@@ -58,11 +60,6 @@ public class HomeController {
 	@RequestMapping(value="/view")
 	public String view() {
 		return "viewForm";
-	}
-	
-	@RequestMapping(value="/review")
-	public String review() {
-		return "review/writeForm";
 	}
 
 }
