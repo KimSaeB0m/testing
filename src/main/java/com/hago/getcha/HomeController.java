@@ -60,8 +60,9 @@ public class HomeController {
 		return "viewForm";
 	}
 	
-	@RequestMapping(value="/view")
-	public String view() {
-		return "viewForm";
+	@RequestMapping(value="/review")
+	public String review() {
+		return "review/writeForm";
 	}
+
 }
