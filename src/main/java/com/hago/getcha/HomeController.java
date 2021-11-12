@@ -33,7 +33,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 
-		return "restManagement/menuRegisterForm1";
+		return "restManagement/menuRegisterForm";
 
 	}
 	
