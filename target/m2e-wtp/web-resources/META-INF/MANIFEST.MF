@@ -1,9 +1,5 @@
 Manifest-Version: 1.0
-<<<<<<< HEAD
 Built-By: yoongang
-=======
-Built-By: ￫ﾂﾨ￬ﾛﾅ￬ﾋﾝ
->>>>>>> 376f510f3c8e4a8965ca6ffa758a03a3c5e8b3f0
 Build-Jdk: 16.0.2
 Created-By: Maven Integration for Eclipse
 

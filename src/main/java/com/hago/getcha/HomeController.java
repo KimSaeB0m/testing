@@ -61,5 +61,10 @@ public class HomeController {
 	public String view() {
 		return "viewForm";
 	}
+	
+	@RequestMapping(value="/write")
+	public String write() {
+		return "review/writeForm";
+	}
 
 }

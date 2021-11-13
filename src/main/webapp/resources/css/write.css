@@ -1,0 +1,27 @@
+@charset "UTF-8";
+ 		.addImage {
+            width: 130px;
+            height: 130px;
+            background-color: grey;
+            border-radius: 20px 20px / 20px 20px;
+            overflow: hidden;
+            margin: 0px 10px 10px 0px;
+        }
+
+        .inputImg {
+            width: 450px;
+            height: 350px;
+        }
+        
+        .upload_wrap div{
+        	float: left;
+        }
+        
+        .button_wrap{
+        	float: right;
+        }
+        
+        .picture{
+        	background-image: url("../img/plus.jpg");
+         	background-size: 100%
+        }
